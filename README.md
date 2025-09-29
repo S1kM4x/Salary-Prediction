@@ -48,7 +48,7 @@ The dataset used comes from [Kaggle - Salary Prediction Dataset](https://www.kag
 - **Country**: Country of residence
 - **Race**: Ethnicity
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 pip install pandas numpy scikit-learn matplotlib seaborn streamlit joblib
 ```
 
-## 💻 Usage
+## Usage
 
 ### Run the Web Application
 
@@ -95,7 +95,7 @@ jupyter notebook 01_eda.ipynb
 jupyter notebook 02_eda.ipynb
 ```
 
-## 🧠 Methodology
+## Methodology
 
 1. **Data Loading and Exploration**: Initial dataset analysis
 2. **Data Cleaning**: Handling null values and outliers
@@ -106,7 +106,7 @@ jupyter notebook 02_eda.ipynb
 7. **Optimization**: Hyperparameter tuning
 8. **Deployment**: Web application with Streamlit
 
-## 📈 Models Used
+## Models Used
 
 The project explores different machine learning algorithms:
 
@@ -116,7 +116,7 @@ The project explores different machine learning algorithms:
 - Gradient Boosting Regressor
 - XGBoost
 
-## 🎨 Application Demo
+## Application Demo
 
 The `app.py` application allows:
 
@@ -125,13 +125,13 @@ The `app.py` application allows:
 - Visualize factors influencing the prediction
 - User-friendly and responsive interface
 
-## 📊 Results
+## Results
 
 The final model achieves competitive performance metrics in salary prediction, considering multiple professional and demographic variables.
 
 *(Add your specific metrics here when available)*
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**: Main language
 - **Pandas**: Data manipulation
@@ -141,14 +141,14 @@ The final model achieves competitive performance metrics in salary prediction, c
 - **Streamlit**: Interactive web application
 - **Joblit**: Model serialization
 
-## 👤 Author
+## Author
 
 **S1kM4x**
 
 - GitHub: [@S1kM4x](https://github.com/S1kM4x)
 - Project Link: [https://github.com/S1kM4x/Salary-Prediction](https://github.com/S1kM4x/Salary-Prediction)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset provided by [Warda Bilal](https://www.kaggle.com/wardabilal) on Kaggle
 - Thanks to the open-source community for the amazing tools and libraries
