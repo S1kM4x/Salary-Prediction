@@ -3,8 +3,8 @@ import pandas as pd
 from joblib import load
 import streamlit as st
 
-model_path = "/Users/s1km4/Desktop/Salary-Prediction/models/model_salary.joblib"
-data_path  = "/Users/s1km4/Desktop/Salary-Prediction/data/Salary_Data.csv"
+model_path = "Location of your model"
+data_path  = "Location of yout data"
 
 @st.cache_resource
 def load_model(path: str):
@@ -17,7 +17,7 @@ def load_categories(csv_path: str):
     job = sorted(df["Job Title"].dropna().astype(str).unique().tolist())
     return edu, job
 
-st.set_page_config(page_title="Salary Estimator", page_icon="💰", layout="centered")
+st.set_page_config(page_title="Salary Estimator", layout="centered")
 st.title("Salary Estimator")
 st.caption("Pick from dropdowns.")
 
