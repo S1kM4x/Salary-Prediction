@@ -3,8 +3,8 @@ import pandas as pd
 from joblib import load
 import streamlit as st
 
-model_path = "Location of your model"
-data_path  = "Location of yout data"
+model_path = "../models/model_salary.joblib"
+data_path  = "../data/Salary_Data.csv"
 
 @st.cache_resource
 def load_model(path: str):
